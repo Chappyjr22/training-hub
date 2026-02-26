@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> ../medicare_welcome_slides (4)\":{\"id\":\"index.tsx -> ../medicare_welcome_slides (4)\",\"files\":[\"static/chunks/medicare_welcome_slides_4_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> ../src/components/TrainingDashboard\":{\"id\":\"index.tsx -> ../src/components/TrainingDashboard\",\"files\":[\"static/chunks/src_components_TrainingDashboard_tsx.js\"]}}"

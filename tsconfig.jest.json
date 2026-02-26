@@ -6,7 +6,7 @@
       "DOM",
       "ES2020"
     ],
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -20,20 +20,11 @@
       "node",
       "@testing-library/jest-dom"
     ],
-    "noEmit": true,
-    "incremental": true,
-    "isolatedModules": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "noEmit": true
   },
   "include": [
     "src",
     "pages",
     "next-env.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
   ]
 }
