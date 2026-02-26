@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> ../src/components/TrainingDashboard\":{\"id\":\"index.tsx -> ../src/components/TrainingDashboard\",\"files\":[\"static/chunks/src_components_TrainingDashboard_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST='{"index.tsx -> ../src/components/TrainingDashboard":{"id":6995,"files":["static/chunks/862.edf35e1f45f6c476.js","static/chunks/995.b4947aba9bffd7c8.js"]},"training\\\\[id].tsx -> @/components/TrainingPlayer":{"id":7141,"files":["static/chunks/862.edf35e1f45f6c476.js","static/chunks/141.b6e45eec2ac979a9.js"]}}';

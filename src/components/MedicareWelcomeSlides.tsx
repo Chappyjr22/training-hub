@@ -283,7 +283,6 @@ export default function MedicareTrainingApp(){
                         if(blk.type==='ol'&&blk.items) return <ol key={i} className="list-decimal ml-6 space-y-1">{blk.items.map((it,j)=>(<li key={j}>{it}</li>))}</ol>;
                         if(blk.type==='img'&&blk.image){ const src=resolveAsset(blk.image.src); return (
                           <figure key={i} className="bg-gray-50 rounded-xl p-3">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src={src} alt={blk.image.alt||''} loading="lazy" decoding="async" className="w-full rounded-md" onError={e=>{(e.target as HTMLImageElement).style.display='none'}}/>
                             {(blk.image.caption||blk.image.alt)&&(<figcaption className="mt-2 text-sm text-gray-600">{blk.image.caption||blk.image.alt}</figcaption>)}
                           </figure>
