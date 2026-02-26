@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/training-hub',
   reactStrictMode: true,
   swcMinify: true,
   images: {
