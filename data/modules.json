@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "color": "bg-pink-500",
+    "title": "Module 1: Introduction to Medicare",
+    "icon": null,
+    "objectives": [
+      "Define what Medicare is and who it serves.",
+      "Differentiate Medicare from Medicaid.",
+      "Understand the overall structure of Medicare."
+    ],
+    "keyPoints": [
+      "Federal health insurance for 65+, certain disabilities, ESRD/ALS.",
+      "Medicare ≠ Medicaid (age/disability vs. income-based).",
+      "Four parts: A (Hospital), B (Medical), C (Advantage), D (Drugs)."
+    ],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slide 2 — What is Medicare?" },
+      { "type": "p", "text": "Medicare is the federal health insurance program for people 65+, people under 65 who have certain disabilities (after 24 months of Social Security Disability benefits), and those with ESRD or ALS. It helps cover hospital stays, medical visits, preventive services, and prescription drugs." },
+      { "type": "ul", "items": ["Part A – Hospital Insurance", "Part B – Medical Insurance", "Part C – Medicare Advantage (private plans)", "Part D – Prescription Drug Coverage"] },
+      { "type": "quote", "text": "Key Point: Medicare ≠ Medicaid. Medicare is age/disability-based; Medicaid is income-based. Some qualify for both (\"dual eligibles\")." },
+      { "type": "img", "image": { "src": "slide_2.png", "alt": "Slide 2: Introduction to Medicare", "caption": "Slide 2" } }
+    ],
+    "miniQuiz": { "q": "Medicare is primarily for:", "options": ["Anyone under age 65", "People 65+, some under 65 with disabilities, ESRD, or ALS", "Low-income families only", "Veterans"], "correctIndex": 1 },
+    "extraQuiz": [
+      { "q": "True/False: Medicare and Medicaid are the same program.", "options": ["True", "False"], "correctIndex": 1 },
+      { "q": "Which is not a part of Medicare?", "options": ["Part A", "Part B", "Part C", "Part F"], "correctIndex": 3 },
+      { "q": "What does Part D cover?", "options": ["Hospital services", "Prescription drugs", "Durable medical equipment", "Skilled nursing care"], "correctIndex": 1 }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "bg-green-500",
+    "title": "Module 2: Medicare Part A – Hospital Insurance",
+    "icon": null,
+    "objectives": [
+      "Describe what Medicare Part A covers.",
+      "Identify eligibility requirements for premium-free Part A.",
+      "Explain deductibles, coinsurance, and premium costs."
+    ],
+    "keyPoints": [
+      "Covers inpatient hospital, SNF (after 3-day stay), hospice, some home health.",
+      "Premium-free with ~40 work credits (10 years); otherwise monthly premium applies.",
+      "Deductible/coinsurance are per benefit period; Part A does not cover custodial long-term care."
+    ],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slide 3 – Part A Coverage & Costs" },
+      { "type": "ul", "items": ["Inpatient hospital stays", "Skilled nursing facility care (after qualifying 3-day inpatient stay)", "Hospice care (comfort-focused services)", "Some home health care"] },
+      { "type": "p", "text": "Premium-free if you or a spouse worked 40 quarters paying Medicare taxes; otherwise a monthly premium may apply. Deductibles and coinsurance apply per benefit period with increasing member costs after day thresholds." },
+      { "type": "quote", "text": "Key Point: Part A does not cover custodial long-term care." },
+      { "type": "img", "image": { "src": "slide_3.png", "alt": "Slide 3: Part A – Hospital Insurance", "caption": "Slide 3" } }
+    ],
+    "miniQuiz": { "q": "How many credits for premium-free Part A?", "options": ["20", "30", "40", "50"], "correctIndex": 2 },
+    "extraQuiz": [
+      { "q": "True/False: Part A covers long-term custodial care.", "options": ["True", "False"], "correctIndex": 1 },
+      { "q": "Which is covered by Part A?", "options": ["Outpatient x-rays", "Skilled nursing (after 3-day stay)", "Routine dental", "Vaccinations"], "correctIndex": 1 },
+      { "q": "What is the 2025 Part A deductible?", "options": ["$816", "$1,632", "$408", "$185"], "correctIndex": 1 }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "bg-blue-500",
+    "title": "Module 3: Medicare Part B – Medical Insurance",
+    "icon": null,
+    "objectives": [
+      "Understand what Medicare Part B covers.",
+      "Review premiums, deductibles, and IRMAA surcharges.",
+      "Recognize penalties for late enrollment."
+    ],
+    "keyPoints": [
+      "Covers doctor visits, outpatient care, labs/x-rays, preventive services, DME, some home health.",
+      "2025 est.: ~$185/mo premium; $257 annual deductible; typically 80% Medicare / 20% member after deductible.",
+      "IRMAA adds income-related premium; delaying Part B without creditable coverage causes a permanent penalty."
+    ],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 4–11 — Part B Coverage & Costs" },
+      { "type": "ul", "items": ["Physician visits, outpatient services, labs, imaging", "Preventive services (annual wellness visit, screenings, vaccines)", "Durable medical equipment (DME)", "Some home health care"] },
+      { "type": "ul", "items": ["Estimated 2025 premium ~$185/month (IRMAA may increase up to ~ $628.90/mo).", "Annual deductible ~$257; after deductible, Medicare pays ~80% and member pays ~20%.", "Late enrollment without creditable coverage results in a permanent penalty."] },
+      { "type": "img", "image": { "src": "slide_4.png", "alt": "Part B: Coverage", "caption": "Slide 4" } },
+      { "type": "img", "image": { "src": "slide_5.png", "alt": "Part B: Costs", "caption": "Slide 5" } },
+      { "type": "img", "image": { "src": "slide_6.png", "alt": "Preventive services", "caption": "Slide 6" } },
+      { "type": "img", "image": { "src": "slide_7.png", "alt": "DME", "caption": "Slide 7" } },
+      { "type": "img", "image": { "src": "slide_8.png", "alt": "Home health", "caption": "Slide 8" } },
+      { "type": "img", "image": { "src": "slide_9.png", "alt": "Coinsurance", "caption": "Slide 9" } },
+      { "type": "img", "image": { "src": "slide_10.png", "alt": "IRMAA", "caption": "Slide 10" } },
+      { "type": "img", "image": { "src": "slide_11.png", "alt": "Enrollment timing", "caption": "Slide 11" } }
+    ],
+    "miniQuiz": { "q": "After deductible, Medicare Part B pays:", "options": ["50%", "70%", "80%", "100%"], "correctIndex": 2 },
+    "extraQuiz": [
+      { "q": "True/False: Delaying Part B without other coverage may cause a penalty.", "options": ["True", "False"], "correctIndex": 0 },
+      { "q": "Which is covered by Part B?", "options": ["Inpatient hospital stay", "Doctor visits", "Prescription drugs", "Custodial care"], "correctIndex": 1 },
+      { "q": "Extra premium for higher incomes is called:", "options": ["Copay", "Coinsurance", "IRMAA", "Deductible"], "correctIndex": 2 }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "bg-indigo-500",
+    "title": "Module 4: Enrollment Periods",
+    "icon": null,
+    "objectives": ["Identify IEP, AEP, OEP, and SEP windows.", "Explain when beneficiaries can enroll or switch coverage."],
+    "keyPoints": ["IEP: 7 months around 65th birthday.", "AEP: Oct 15–Dec 7 for changing MA/Part D.", "OEP: Jan 1–Mar 31 for MA enrollees to switch/drop.", "SEPs: Qualifying life events (move, loss of employer coverage, Medicaid)."],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 13–17 — Enrollment Windows" },
+      { "type": "ul", "items": ["IEP: 7 months around 65th birthday", "AEP: Oct 15–Dec 7 (change plans, add/drop Part D)", "OEP: Jan 1–Mar 31 (MA enrollees only)", "SEPs: move, loss of employer coverage, Medicaid eligibility changes"] },
+      { "type": "img", "image": { "src": "slide_13.png", "alt": "IEP", "caption": "Slide 13" } },
+      { "type": "img", "image": { "src": "slide_14.png", "alt": "AEP", "caption": "Slide 14" } },
+      { "type": "img", "image": { "src": "slide_15.png", "alt": "OEP", "caption": "Slide 15" } },
+      { "type": "img", "image": { "src": "slide_16.png", "alt": "SEPs", "caption": "Slide 16" } },
+      { "type": "img", "image": { "src": "slide_17.png", "alt": "Scenarios", "caption": "Slide 17" } }
+    ],
+    "miniQuiz": { "q": "IEP lasts:", "options": ["3 months", "6 months", "7 months", "12 months"], "correctIndex": 2 },
+    "extraQuiz": [
+      { "q": "Which occurs Oct 15–Dec 7?", "options": ["OEP", "AEP", "SEP", "IEP"], "correctIndex": 1 },
+      { "q": "True/False: During OEP, any Medicare enrollee can join Part D.", "options": ["True", "False"], "correctIndex": 1 },
+      { "q": "Which triggers a SEP?", "options": ["Moving to new state", "Turning 40", "Tax filing changes", "Employer bonus"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "bg-teal-500",
+    "title": "Module 5: Dual Eligibility (Medicare + Medicaid)",
+    "icon": null,
+    "objectives": ["Define dual eligibility.", "Identify all MSP categories.", "Distinguish partial vs. full duals."],
+    "keyPoints": ["Duals may get Medicare costs paid by Medicaid and often extra benefits.", "Medicare Savings Programs include QMB, SLMB, QI, QDWI; plus FBDE (full Medicaid).", "Partial (premium help only) vs. full (Medicaid benefits + some/all Medicare costs)."],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 18–20 — Duals & MSPs" },
+      { "type": "p", "text": "Dual eligible individuals qualify for both Medicare and Medicaid. Medicaid can help pay Medicare premiums, deductibles, and copays, and may cover additional services like dental, vision, and transportation." },
+      { "type": "h3", "text": "Medicare Savings Program Categories" },
+      { "type": "ul", "items": ["QMB Only – Pays Part A & B premiums and Medicare cost-sharing; no full Medicaid", "QMB Plus – Same as QMB Only + full Medicaid", "SLMB Only – Pays Part B premium only", "SLMB Plus – Part B premium + full Medicaid", "QI – Part B premium only (limited funding)", "QDWI – Part A premium only (working disabled)", "FBDE – Full Medicaid; state may pay some Medicare costs"] },
+      { "type": "html", "html": "<div class=\"overflow-x-auto\"><table class=\"w-full text-sm border border-gray-300\"><thead class=\"bg-gray-100\"><tr><th class=\"p-2 text-left\">Category</th><th class=\"p-2 text-left\">Pays Part A Premium?</th><th class=\"p-2 text-left\">Pays Part B Premium?</th><th class=\"p-2 text-left\">Pays Deductibles/Coinsurance?</th><th class=\"p-2 text-left\">Full Medicaid Benefits?</th></tr></thead><tbody><tr><td class=\"p-2\">QMB Only</td><td class=\"p-2\">✅ (if owed)</td><td class=\"p-2\">✅</td><td class=\"p-2\">✅</td><td class=\"p-2\">❌</td></tr><tr><td class=\"p-2\">QMB Plus</td><td class=\"p-2\">✅</td><td class=\"p-2\">✅</td><td class=\"p-2\">✅</td><td class=\"p-2\">✅</td></tr><tr><td class=\"p-2\">SLMB Only</td><td class=\"p-2\">❌</td><td class=\"p-2\">✅</td><td class=\"p-2\">❌</td><td class=\"p-2\">❌</td></tr><tr><td class=\"p-2\">SLMB Plus</td><td class=\"p-2\">❌</td><td class=\"p-2\">✅</td><td class=\"p-2\">❌</td><td class=\"p-2\">✅</td></tr><tr><td class=\"p-2\">QI</td><td class=\"p-2\">❌</td><td class=\"p-2\">✅</td><td class=\"p-2\">❌</td><td class=\"p-2\">❌</td></tr><tr><td class=\"p-2\">QDWI</td><td class=\"p-2\">✅</td><td class=\"p-2\">❌</td><td class=\"p-2\">❌</td><td class=\"p-2\">❌</td></tr><tr><td class=\"p-2\">FBDE</td><td class=\"p-2\">Varies</td><td class=\"p-2\">Varies</td><td class=\"p-2\">Varies</td><td class=\"p-2\">✅</td></tr></tbody></table></div>" },
+      { "type": "img", "image": { "src": "slide_18.png", "alt": "Dual eligibility overview", "caption": "Slide 18" } },
+      { "type": "img", "image": { "src": "slide_19.png", "alt": "MSP categories", "caption": "Slide 19" } },
+      { "type": "img", "image": { "src": "slide_20.png", "alt": "Examples & scenarios", "caption": "Slide 20" } }
+    ],
+    "miniQuiz": { "q": "Which pays both A & B premiums + cost-sharing, but no full Medicaid?", "options": ["QMB Only", "QI", "SLMB Only", "QDWI"], "correctIndex": 0 },
+    "extraQuiz": [
+      { "q": "True/False: SLMB Plus = B premium + full Medicaid.", "options": ["True", "False"], "correctIndex": 0 },
+      { "q": "QDWI helps:", "options": ["Retired teachers", "Disabled workers losing free Part A", "High-income beneficiaries", "People with Medicaid only"], "correctIndex": 1 },
+      { "q": "Which pays B premium only, limited federal funds?", "options": ["QI", "QMB Plus", "FBDE", "QDWI"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": 6,
+    "color": "bg-orange-500",
+    "title": "Module 6: Medicare Advantage (Part C – MAPD)",
+    "icon": null,
+    "objectives": ["Explain MAPD coverage.", "Identify extra benefits.", "Review SNP categories."],
+    "keyPoints": ["MAPDs combine Parts A+B and usually Part D, run by private insurers.", "Often include extras (dental, vision, hearing, fitness).", "SNP types: C-SNP (chronic), D-SNP (dual), I-SNP (institutional)."],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 21–23 — MAPD Overview" },
+      { "type": "ul", "items": ["Combine Part A + Part B + usually Part D", "Operated by private insurers; must cover what Original Medicare covers", "Often include extras: dental, vision, hearing, gym memberships"] },
+      { "type": "ul", "items": ["SNP Types:", "C-SNP – for specific chronic conditions", "D-SNP – for dual eligibles", "I-SNP – for institutionalized members"] },
+      { "type": "img", "image": { "src": "slide_21.png", "alt": "MAPD basics", "caption": "Slide 21" } },
+      { "type": "img", "image": { "src": "slide_22.png", "alt": "MAPD extras", "caption": "Slide 22" } },
+      { "type": "img", "image": { "src": "slide_23.png", "alt": "SNP categories", "caption": "Slide 23" } }
+    ],
+    "miniQuiz": { "q": "True/False: MAPDs are run by Medicare directly.", "options": ["True", "False"], "correctIndex": 1 },
+    "extraQuiz": [
+      { "q": "Which extra benefit may be included?", "options": ["Vision & dental", "Life insurance", "Childcare", "Auto insurance"], "correctIndex": 0 },
+      { "q": "I-SNP is for:", "options": ["Nursing home residents", "Pediatrics", "Veterans only", "Employers"], "correctIndex": 0 },
+      { "q": "MAPDs must cover at least what Original Medicare covers under:", "options": ["Parts A & B", "Part D only", "Medicaid", "TRICARE"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "bg-purple-500",
+    "title": "Module 7: Medicare Advantage – Plan Types",
+    "icon": null,
+    "objectives": ["Compare HMO, PPO, HMO-POS, and PFFS plans."],
+    "keyPoints": ["HMO: in-network only, PCP + referrals, lower cost.", "PPO: in/out-of-network, no referrals, higher flexibility/cost.", "HMO-POS: HMO with limited out-of-network option.", "PFFS: any Medicare-approved provider who accepts plan terms."],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 24–35 — Plan Type Comparison" },
+      { "type": "ul", "items": ["HMO – Must use in-network providers; PCP required; referrals; generally lower cost", "PPO – Use in- or out-of-network; no referrals; more flexible; higher cost for OON", "HMO-POS – HMO with some out-of-network benefits", "PFFS – No formal network; provider must accept plan terms at each visit"] },
+      { "type": "img", "image": { "src": "slide_24.png", "alt": "MA overview", "caption": "Slide 24" } },
+      { "type": "img", "image": { "src": "slide_25.png", "alt": "Plan types", "caption": "Slide 25" } },
+      { "type": "img", "image": { "src": "slide_26.png", "alt": "HMO", "caption": "Slide 26" } },
+      { "type": "img", "image": { "src": "slide_27.png", "alt": "PPO", "caption": "Slide 27" } },
+      { "type": "img", "image": { "src": "slide_28.png", "alt": "PFFS", "caption": "Slide 28" } },
+      { "type": "img", "image": { "src": "slide_29.png", "alt": "HMO-POS", "caption": "Slide 29" } },
+      { "type": "img", "image": { "src": "slide_30.png", "alt": "SNP overview", "caption": "Slide 30" } },
+      { "type": "img", "image": { "src": "slide_31.png", "alt": "D-SNP", "caption": "Slide 31" } },
+      { "type": "img", "image": { "src": "slide_32.png", "alt": "C-SNP", "caption": "Slide 32" } },
+      { "type": "img", "image": { "src": "slide_33.png", "alt": "I-SNP", "caption": "Slide 33" } },
+      { "type": "img", "image": { "src": "slide_34.png", "alt": "MOOP/extras", "caption": "Slide 34" } },
+      { "type": "img", "image": { "src": "slide_35.png", "alt": "Star Ratings", "caption": "Slide 35" } }
+    ],
+    "miniQuiz": { "q": "Which requires referral to a specialist?", "options": ["PPO", "HMO", "PFFS", "HMO-POS"], "correctIndex": 1 },
+    "extraQuiz": [
+      { "q": "True/False: PPOs cover out-of-network care at higher cost.", "options": ["True", "False"], "correctIndex": 0 },
+      { "q": "Which has no network but provider must accept terms?", "options": ["PFFS", "HMO", "PPO", "HMO-POS"], "correctIndex": 0 },
+      { "q": "HMO-POS allows:", "options": ["Any provider at same cost", "Some out-of-network services at higher cost", "No referrals in-network", "Unlimited OON coverage"], "correctIndex": 1 }
+    ]
+  },
+  {
+    "id": 8,
+    "color": "bg-red-500",
+    "title": "Module 8: Medicare Part D – Prescription Drug Coverage",
+    "icon": null,
+    "objectives": ["Explain Part D coverage.", "Understand formularies, tiers, coverage gap.", "Recognize penalties."],
+    "keyPoints": ["PDPs are standalone for Original Medicare; MAPDs include Part D.", "Every plan has its own formulary & tiers; costs = premium + deductible + copay/coinsurance.", "Late enrollment penalty: 1% of base premium per month without creditable coverage (permanent)."],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 36–43, 45, 57 — Part D Essentials" },
+      { "type": "ul", "items": ["PDPs: standalone drug plans for those with A and/or B", "MAPDs: Medicare Advantage plans that include drug coverage", "Formularies & tiers vary; check annually", "Costs depend on tier, network (preferred vs standard), and stage (deductible, initial, gap, catastrophic)"] },
+      { "type": "ul", "items": ["Penalty: 1% of national base beneficiary premium per month without creditable coverage — permanent once applied"] },
+      { "type": "img", "image": { "src": "slide_36.png", "alt": "Part D overview", "caption": "Slide 36" } },
+      { "type": "img", "image": { "src": "slide_37.png", "alt": "Formularies", "caption": "Slide 37" } },
+      { "type": "img", "image": { "src": "slide_38.png", "alt": "Tiers", "caption": "Slide 38" } },
+      { "type": "img", "image": { "src": "slide_39.png", "alt": "Benefit stages", "caption": "Slide 39" } },
+      { "type": "img", "image": { "src": "slide_40.png", "alt": "Pharmacy networks", "caption": "Slide 40" } },
+      { "type": "img", "image": { "src": "slide_41.png", "alt": "Creditable coverage", "caption": "Slide 41" } },
+      { "type": "img", "image": { "src": "slide_42.png", "alt": "Penalties", "caption": "Slide 42" } },
+      { "type": "img", "image": { "src": "slide_43.png", "alt": "MTM programs", "caption": "Slide 43" } },
+      { "type": "img", "image": { "src": "slide_45.png", "alt": "Examples", "caption": "Slide 45" } },
+      { "type": "img", "image": { "src": "slide_57.png", "alt": "Reminders", "caption": "Slide 57" } }
+    ],
+    "miniQuiz": { "q": "True/False: Every Part D plan has the same formulary.", "options": ["True", "False"], "correctIndex": 1 },
+    "extraQuiz": [
+      { "q": "Penalty is based on:", "options": ["Each month without coverage", "Annual income", "State of residence", "Number of dependents"], "correctIndex": 0 },
+      { "q": "\"Donut hole\" refers to:", "options": ["Deductible", "Coverage gap", "Catastrophic stage", "Out-of-network penalty"], "correctIndex": 1 },
+      { "q": "Who can join Part D?", "options": ["Anyone with A and/or B", "Only those with C", "Medicaid only", "Over 70 only"], "correctIndex": 0 }
+    ]
+  },
+  {
+    "id": 9,
+    "color": "bg-yellow-500",
+    "title": "Module 9: Medigap (Medicare Supplement Insurance)",
+    "icon": null,
+    "objectives": ["Define Medigap.", "Compare to Medicare Advantage.", "Identify enrollment rules."],
+    "keyPoints": ["Private policies that help cover Medicare gaps: deductibles, coinsurance, copays.", "Plans standardized A–N; C & F not available to new enrollees after Jan 1, 2020.", "Must have Parts A & B; best time to buy is 6-month Medigap Open Enrollment after Part B start (age 65+)."],
+    "breakdownBlocks": [
+      { "type": "h3", "text": "Slides 47–52 — Medigap Overview" },
+      { "type": "p", "text": "Medigap plans help pay some costs not covered by Original Medicare, such as copays, coinsurance, and deductibles. Benefits are standardized by letter across insurers." },
+      { "type": "ul", "items": ["Must have Parts A & B to enroll", "Plans A–N; C & F unavailable for new enrollees after 1/1/2020", "6-month Medigap Open Enrollment (when 65+ and enrolled in Part B) is generally the best time to buy"] },
+      { "type": "img", "image": { "src": "slide_47.png", "alt": "Medigap basics", "caption": "Slide 47" } },
+      { "type": "img", "image": { "src": "slide_48.png", "alt": "Standardized plans", "caption": "Slide 48" } },
+      { "type": "img", "image": { "src": "slide_49.png", "alt": "Enrollment timing", "caption": "Slide 49" } },
+      { "type": "img", "image": { "src": "slide_50.png", "alt": "What Medigap does not cover", "caption": "Slide 50" } },
+      { "type": "img", "image": { "src": "slide_51.png", "alt": "Pair with Part D", "caption": "Slide 51" } },
+      { "type": "img", "image": { "src": "slide_52.png", "alt": "Guaranteed issue examples", "caption": "Slide 52" } }
+    ],
+    "miniQuiz": { "q": "True/False: You must have A & B to buy Medigap.", "options": ["True", "False"], "correctIndex": 0 },
+    "extraQuiz": [
+      { "q": "Plans no longer available for new enrollees after 2020?", "options": ["A & G", "C & F", "K & L", "N & D"], "correctIndex": 1 },
+      { "q": "Medigap covers:", "options": ["Copays, coinsurance, deductibles", "Prescription drugs", "Long-term care", "Dental & vision by default"], "correctIndex": 0 },
+      { "q": "Which offers more provider freedom?", "options": ["Medicare Advantage", "Medigap", "Part D", "Medicaid"], "correctIndex": 1 }
+    ]
+  }
+]
