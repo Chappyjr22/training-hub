@@ -3,7 +3,6 @@ import { render, screen } from '@testing-library/react';
 
 // Mock the heavy UI component to avoid transforming framer-motion / lucide-react in Jest
 jest.mock('../../src/components/MedicareWelcomeSlides', () => {
-  const React = require('react');
   return function MockMedicare() {
     return React.createElement('div', null, 'Welcome to the Medicare Training Program!');
   };
