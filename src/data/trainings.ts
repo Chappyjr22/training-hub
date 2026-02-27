@@ -1,3 +1,4 @@
+// Slide interface for training content with support for various layouts
 export interface Slide {
   id: string;
   type: 'title' | 'content' | 'summary';
