@@ -171,27 +171,22 @@ export default function TrainingPlayer({ training }: TrainingPlayerProps) {
           )}
 
           {currentSlide.type === 'content' && (
-            <div className="slide-inner">
-              <div className="slide-header">
-                <div className="slide-step-badge">Step {currentSlideIndex + 1}</div>
-                <h2 className="slide-h2">{currentSlide.title}</h2>
+            <div className="slide-inner refined-slide-inner">
+              <div className="slide-header refined-slide-header">
+                <div className="slide-step-badge refined-step-badge">Step {currentSlideIndex + 1}</div>
+                <h2 className="slide-h2 refined-slide-h2">{currentSlide.title}</h2>
                 {currentSlide.description && (
-                  <p className="slide-lead">{currentSlide.description}</p>
+                  <p className="slide-lead refined-slide-lead">{currentSlide.description}</p>
                 )}
               </div>
 
               {/* Render screenshot if present */}
               {currentSlide.image && (
-                <div style={{ margin: '24px 0', textAlign: 'center' }}>
+                <div className="slide-image-wrapper">
                   <img
                     src={currentSlide.image}
                     alt={currentSlide.title || 'Screenshot'}
-                    style={{
-                      maxWidth: '100%',
-                      borderRadius: '12px',
-                      boxShadow: '0 2px 16px 0 rgba(0,0,0,0.08)',
-                      border: '1px solid var(--border)',
-                    }}
+                    className="slide-image"
                   />
                 </div>
               )}
@@ -199,31 +194,25 @@ export default function TrainingPlayer({ training }: TrainingPlayerProps) {
               {/* Render info panel if present */}
               {currentSlide.infoPanel && (
                 <div
-                  className="info-panel"
+                  className="info-panel refined-info-panel"
                   style={{
                     borderLeft: `6px solid ${currentSlide.infoPanel.accentColor || '#00B8A0'}`,
-                    background: 'var(--surface)',
-                    margin: '16px 0',
-                    padding: '16px 20px',
-                    borderRadius: '8px',
                   }}
                 >
-                  <div style={{ fontWeight: 600, color: currentSlide.infoPanel.accentColor || '#00B8A0', marginBottom: 4 }}>
-                    {currentSlide.infoPanel.label}
-                  </div>
-                  <div style={{ fontWeight: 500, fontSize: 16 }}>{currentSlide.infoPanel.title}</div>
-                  <div style={{ color: 'var(--ink-3)', fontSize: 14 }}>{currentSlide.infoPanel.body}</div>
+                  <div className="info-panel-label">{currentSlide.infoPanel.label}</div>
+                  <div className="info-panel-title">{currentSlide.infoPanel.title}</div>
+                  <div className="info-panel-body">{currentSlide.infoPanel.body}</div>
                 </div>
               )}
 
               {/* Render field list if present */}
               {currentSlide.fieldList && (
-                <div style={{ margin: '16px 0' }}>
-                  <div style={{ fontWeight: 600, marginBottom: 8 }}>Fields to Complete:</div>
-                  <ul style={{ paddingLeft: 20 }}>
+                <div className="field-list-wrapper">
+                  <div className="field-list-title">Fields to Complete:</div>
+                  <ul className="field-list">
                     {currentSlide.fieldList.map((field: any, idx: number) => (
-                      <li key={idx} style={{ color: field.required ? '#00B8A0' : '#6B7684', fontWeight: field.required ? 600 : 400 }}>
-                        {field.field} {field.required ? <span style={{ color: '#EAB308', fontWeight: 700 }}>*</span> : <span style={{ color: '#6B7684', fontWeight: 400 }}>(Optional)</span>}
+                      <li key={idx} className={field.required ? 'field-required' : 'field-optional'}>
+                        {field.field} {field.required ? <span className="field-required-asterisk">*</span> : <span className="field-optional-label">(Optional)</span>}
                       </li>
                     ))}
                   </ul>
@@ -231,7 +220,7 @@ export default function TrainingPlayer({ training }: TrainingPlayerProps) {
               )}
 
               <div
-                className={currentSlide.layout?.startsWith('two-col') ? 'two-col' : ''}
+                className={currentSlide.layout?.startsWith('two-col') ? 'two-col refined-two-col' : 'info-panel refined-info-panel'}
                 style={
                   currentSlide.layout === 'two-col-wide-left'
                     ? { gridTemplateColumns: '1.4fr 1fr' }
@@ -242,44 +231,15 @@ export default function TrainingPlayer({ training }: TrainingPlayerProps) {
               >
                 {currentSlide.layout?.startsWith('two-col') ? (
                   <>
-                    <div className="info-panel">
-                      <div
-                        style={{
-                          whiteSpace: 'pre-line',
-                          fontSize: '15px',
-                          lineHeight: '1.65',
-                          color: 'var(--ink-2)',
-                        }}
-                      >
-                        {currentSlide.leftContent}
-                      </div>
+                    <div className="info-panel refined-info-panel">
+                      <div className="refined-panel-content">{currentSlide.leftContent}</div>
                     </div>
-                    <div className="info-panel">
-                      <div
-                        style={{
-                          whiteSpace: 'pre-line',
-                          fontSize: '15px',
-                          lineHeight: '1.65',
-                          color: 'var(--ink-2)',
-                        }}
-                      >
-                        {currentSlide.rightContent}
-                      </div>
+                    <div className="info-panel refined-info-panel">
+                      <div className="refined-panel-content">{currentSlide.rightContent}</div>
                     </div>
                   </>
                 ) : (
-                  <div className="info-panel">
-                    <div
-                      style={{
-                        whiteSpace: 'pre-line',
-                        fontSize: '15px',
-                        lineHeight: '1.65',
-                        color: 'var(--ink-2)',
-                      }}
-                    >
-                      {currentSlide.content}
-                    </div>
-                  </div>
+                  <div className="refined-panel-content">{currentSlide.content}</div>
                 )}
               </div>
             </div>
