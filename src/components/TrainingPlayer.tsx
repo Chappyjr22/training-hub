@@ -180,6 +180,56 @@ export default function TrainingPlayer({ training }: TrainingPlayerProps) {
                 )}
               </div>
 
+              {/* Render screenshot if present */}
+              {currentSlide.image && (
+                <div style={{ margin: '24px 0', textAlign: 'center' }}>
+                  <img
+                    src={currentSlide.image}
+                    alt={currentSlide.title || 'Screenshot'}
+                    style={{
+                      maxWidth: '100%',
+                      borderRadius: '12px',
+                      boxShadow: '0 2px 16px 0 rgba(0,0,0,0.08)',
+                      border: '1px solid var(--border)',
+                    }}
+                  />
+                </div>
+              )}
+
+              {/* Render info panel if present */}
+              {currentSlide.infoPanel && (
+                <div
+                  className="info-panel"
+                  style={{
+                    borderLeft: `6px solid ${currentSlide.infoPanel.accentColor || '#00B8A0'}`,
+                    background: 'var(--surface)',
+                    margin: '16px 0',
+                    padding: '16px 20px',
+                    borderRadius: '8px',
+                  }}
+                >
+                  <div style={{ fontWeight: 600, color: currentSlide.infoPanel.accentColor || '#00B8A0', marginBottom: 4 }}>
+                    {currentSlide.infoPanel.label}
+                  </div>
+                  <div style={{ fontWeight: 500, fontSize: 16 }}>{currentSlide.infoPanel.title}</div>
+                  <div style={{ color: 'var(--ink-3)', fontSize: 14 }}>{currentSlide.infoPanel.body}</div>
+                </div>
+              )}
+
+              {/* Render field list if present */}
+              {currentSlide.fieldList && (
+                <div style={{ margin: '16px 0' }}>
+                  <div style={{ fontWeight: 600, marginBottom: 8 }}>Fields to Complete:</div>
+                  <ul style={{ paddingLeft: 20 }}>
+                    {currentSlide.fieldList.map((field: any, idx: number) => (
+                      <li key={idx} style={{ color: field.required ? '#00B8A0' : '#6B7684', fontWeight: field.required ? 600 : 400 }}>
+                        {field.field} {field.required ? <span style={{ color: '#EAB308', fontWeight: 700 }}>*</span> : <span style={{ color: '#6B7684', fontWeight: 400 }}>(Optional)</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               <div
                 className={currentSlide.layout?.startsWith('two-col') ? 'two-col' : ''}
                 style={
